@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../images/wall\ texture.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    mix-blend-mode: darken;
+    opacity: 0.3;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 9%;
+}
+
+section{
+    position: fixed;
+    bottom: 5.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 87.5%;
+}
+
+button{
+    width: 100%;
+    height: 7.4vh;
+    margin-top: 2vh;
+    border-radius: 1.64vh;
+    border: 1px solid white;
+    background: #F80032;
+    color: white;
+    font-family: 'Main', 'MarkGeo', sans-serif;
+    font-size: 2.25vh;
+    cursor: pointer;
+}
+
+.rules{
+    background: #A90E2D;
+}
+
+h1{
+    margin: 0;
+    opacity: 0;
+    width: 0.2px;
+}
+
+@media only screen and (width: 320px){
+    section{
+        width: 77.5%;
+    }
+}
+
+@media only screen and (height: 1368px){
+    section{
+        width: 77.5%;
+    }
+}
+
+@media only screen and (height: 1280px){
+    section{
+        width: 77.5%;
+    }
+}
+
+@media only screen and (height: 1180px){
+    section{
+        width: 74%;
+    }
+}
+
+@media only screen and (height: 1024px){
+    section{
+        width: 68%;
+    }
+}

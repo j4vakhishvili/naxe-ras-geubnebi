@@ -1,0 +1,184 @@
+header{
+    width: 100%;
+    height: 5.52vh;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    margin: 0;
+    font-family: 'Main', 'MarkGeoCaps', 'MarkGeo', sans-serif;
+    font-size: 2vh;
+    color: white;
+    display: inline-block;
+    margin-left: 1vh;
+}
+
+.icon{
+    width: 2.45vh;
+    height: 2.45vh;
+    background: url(../icons/rules\ icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+nav{
+    width: 87.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h2, p, i{
+    font-family: 'MarkGeo', sans-serif;
+    font-size: 2vh;
+    color: white;
+}
+
+h2{
+    margin: 0;
+    font-weight: bold;
+}
+
+section{
+    width: 87.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+i{
+    font-size: 1.8vh;
+    opacity: 0.5;
+}
+
+p{
+    opacity: 0.9;
+}
+
+.icon-soc{
+    width: 4.9vh;
+    height: 4.9vh;
+    border-radius: 0.8vh;
+    background-color: #940C27;
+    display: inline-block;
+}
+
+.social{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+}
+
+.yt{
+    background: url(../icons/yt\ icon.svg) #940C27;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 60%;
+}
+
+.fb{
+    background: url(../icons/fb\ icon.svg) #940C27;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 60%;
+}
+
+.ig{
+    background: url(../icons/ig\ icon.svg) #940C27;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 60%;
+}
+
+.j4logo{
+    width: 3.9vh;
+    height: 5.1vh;
+    background: url(../icons/j4Logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shenimoedanilogo{
+    width: 8.7vh;
+    height: 6.14vh;
+    background: url(../icons/sheni\ moedani\ logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iconbck{
+    width: 1vh;
+    height: 1.6vh;
+    display: inline-block;
+    background: url(../icons/go\ bck\ icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 2vh;
+}
+
+.gobck{
+    width: 100%;
+    height: 7.4vh;
+    margin-top: 2vh;
+    border-radius: 1.64vh;
+    border: 1px solid white;
+    background: #A90E2D;
+    color: white;
+    font-family: 'Main', 'MarkGeo', sans-serif;
+    font-size: 2.25vh;
+    cursor: pointer;
+}
+
+@media only screen and (width: 320px){
+    nav, section{
+        width: 77.5%;
+    }
+}
+
+@media only screen and (height: 1368px){
+    nav, section{
+        width: 77.5%;
+    }
+}
+
+@media only screen and (height: 1280px){
+    nav, section{
+        width: 77.5%;
+    }
+}
+
+@media only screen and (height: 1180px){
+    nav, section{
+        width: 74%;
+    }
+}
+
+@media only screen and (height: 1024px){
+    nav, section{
+        width: 68%;
+    }
+}
