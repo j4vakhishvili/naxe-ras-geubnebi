@@ -23,7 +23,7 @@ img{
     margin-bottom: 9%;
 }
 
-section{
+main{
     position: fixed;
     bottom: 5.5vh;
     display: flex;
@@ -56,32 +56,87 @@ h1{
     width: 0.2px;
 }
 
+#standartMode{
+    width: 100%;
+    height: 100%;
+    background-color: #A90E2D;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: -100%;
+    transition: 0.3s;
+}
+
+.iconbck{
+    width: 1vh;
+    height: 1.6vh;
+    display: inline-block;
+    background: url(../icons/go\ bck\ icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 2vh;
+}
+
+.gobck{
+    width: 100%;
+    height: 7.4vh;
+    margin-top: 2vh;
+    border-radius: 1.64vh;
+    border: 1px solid white;
+    background: #A90E2D;
+    color: white;
+    font-family: 'Main', 'MarkGeo', sans-serif;
+    font-size: 2.25vh;
+    cursor: pointer;
+}
+
+input{
+    width: 90%;
+    height: 7.4vh;
+    margin-top: 2vh;
+    border-radius: 1.64vh;
+    border: 1px solid white;
+    background: #940C27;
+    color: white;
+    font-family: 'MarkGeoCaps', sans-serif;
+    font-size: 2.25vh;
+    padding: 0 2vh;
+    box-shadow: inset 0 0 12px #0000005b;
+}
+
+h2{
+    margin: 0;
+    font-family: 'Main', 'MarkGeoCaps', 'MarkGeo', sans-serif;
+    color: white;
+}
+
 @media only screen and (width: 320px){
-    section{
+    main{
         width: 77.5%;
     }
 }
 
 @media only screen and (height: 1368px){
-    section{
+    main{
         width: 77.5%;
     }
 }
 
 @media only screen and (height: 1280px){
-    section{
+    main{
         width: 77.5%;
     }
 }
 
 @media only screen and (height: 1180px){
-    section{
+    main{
         width: 74%;
     }
 }
 
 @media only screen and (height: 1024px){
-    section{
+    main{
         width: 68%;
     }
 }

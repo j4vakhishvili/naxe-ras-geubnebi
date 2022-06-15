@@ -18,11 +18,23 @@
 </head>
 <body oncontextmenu="return false">
     <div class="background"><h1>ნახე რას გეუბნები</h1></div>
-    <section>
+    <main>
         <img src="assets/images/Logo.png" alt="naxe ras geubnebi logo">
-        <button>სტანდარტული რეჟიმი</button>
+        <button onclick="openStandartMode()">სტანდარტული რეჟიმი</button>
         <button disabled>უსასრულო რეჟიმი</button>
         <button class="rules" onclick="window.location.href='rules'">წესები</button>
+    </main>
+    <section id="standartMode">
+        <main>
+            <img src="assets/images/Logo.png" alt="naxe ras geubnebi logo">
+            <h2>სტანდარტული რეჟიმი</h2>
+            <input type="text" placeholder="I გუნდის სახელი">
+            <input type="text" placeholder="II გუნდის სახელი">
+            <button>თამაშის დაწყება</button>
+            <button class="gobck" onclick="closeStandartMode()"><div class="iconbck"></div>უკან გასვლა</button>
+        </main>
     </section>
+
+    <script src="assets/script/openMenu.js"></script>
 </body>
 </html>
